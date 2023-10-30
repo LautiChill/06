@@ -1,5 +1,5 @@
 body {
-    background-color: #fcfcfc;
+    background-color: #92B77E;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +23,22 @@ nav li {
     display: inline;
     text-align: center;
     flex: 1;
-    color: #fcfcfc;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+header form {
+  width: 400px;
+}
+
+.lupa {
+  height: 40px;
+  width: 40px;
+}
+
+.buscador {
+  height: 40px;
+  width: 80%;
 }
 
 .container {
@@ -36,7 +51,7 @@ nav li {
     /* Centra los elementos a lo largo del eje principal horizontal */
     align-items: center;
     /* Centra los elementos a lo largo del eje secundario vertical */
-    background-color: #ee2626;
+    background-color: #5F7B53;
     margin: 0 50px;
     /* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
 }
@@ -44,7 +59,7 @@ nav li {
 header {
     display: flex;
     /* Establece el encabezado como un contenedor flex */
-    align-items: baseline;
+    align-items: center;
     /* Alinea los elementos del encabezado a lo largo de la línea de base */
     justify-content: space-between;
     /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
@@ -62,22 +77,26 @@ header {
     margin-bottom: 20px;
 }
 
+.container-image img {
+  width: 350px;
+}
+
 .box {
     width: 350px;
     padding: 20px;
-    background-color: #000000;
+    background-color: #ffffff;
     margin: 10px;
     text-align: center;
 }
 
 h3 {
 
-    color: #fcfcfc;
+    color: #000000;
 }
 
 p {
 
-    color: #fcfcfc;
+    color: #000000;
 }
 
 
