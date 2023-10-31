@@ -4,6 +4,30 @@ body {
     padding: 0;
 }
 
+.box p {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.box1 {
+  width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    text-align: center;
+}
+
+.box1 p {
+  background-color: black;
+  color: #F7371E;
+  padding: 15px;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
 
 nav {
     height: 70px;
